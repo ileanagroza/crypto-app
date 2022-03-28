@@ -1,6 +1,5 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { CryptoTableRoutingModule } from './crypto-table-routing.module';
 import { CryptoTableComponent } from './crypto-table.component';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatTableModule, MatTabsModule, MatPaginatorModule, MatSortModule, MatDialogModule, MatProgressSpinnerModule, MatAutocompleteModule } from '@angular/material';
@@ -8,7 +7,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import {MatSelectModule} from '@angular/material/select';
+import { MatSelectModule } from '@angular/material/select';
 import { DialogComponent } from '../shared/dialog/dialog.component';
 
 

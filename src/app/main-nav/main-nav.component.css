@@ -1,5 +1,5 @@
 .sidenav-container {
-  height: 10%;
+  height: 100%;
 }
 
 .sidenav {
@@ -15,4 +15,13 @@
   top: 0;
   z-index: 1;
 }
+mat-sidenav-container {
+  height: 100%;
+}
 
+mat-sidenav, mat-sidenav-container {
+  /* padding: 16px; */
+}
+mat-sidenav {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(135, 116, 255, 0.3))!important;
+}
